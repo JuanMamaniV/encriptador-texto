@@ -9,6 +9,11 @@
     height: 100vh;
     background: #f3f5fc;
 }
+.container img{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
 
 .texto{
     position: absolute;
@@ -168,7 +173,15 @@
         display: flex;
         flex-direction: row;
     }
+    .container img{
+        position: absolute;
+        width: 5%;
+        height: 5%;
+        top: 5%;
+        left: 10%;
+    }
     .encriptar {
+        
         width: 100%;
     }
 
